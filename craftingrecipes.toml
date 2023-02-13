@@ -1,0 +1,88 @@
+[grindstone]
+    recipe = [
+        ["", "a", ""],
+        ["b", "a", "b"],
+        ["b", "", "b"]
+    ]
+    result = "grindstone"
+    [grindstone.items]
+        a = {id = "stone", amount = 1}
+        b = {id = "stick", amount = 1}
+[leaves_and_dirt_to_grass]
+    recipe = [
+        ["a", "b", ""],
+        ["", "", ""],
+        ["", "", ""]
+    ]
+    result = "grass"
+    [leaves_and_dirt_to_grass.items]
+        b = {id = "dirt", amount = 1}
+        a = {id = "tree_leaves", amount = 1}
+[pebbles_to_stones]
+    recipe = [
+        ["a", "a", ""],
+        ["a", "a", ""],
+        ["", "", ""]
+    ]
+    result = "stone"
+    [pebbles_to_stones.items]
+        a = {id = "pebble", amount = 1}
+[sticks_and_pebbles_to_axe]
+    recipe = [
+        ["a", "a", ""],
+        ["a", "b", ""],
+        ["", "b", ""]
+    ]
+    result = "crumbling_axe"
+    [sticks_and_pebbles_to_axe.items]
+        a = {id = "stone", amount = 1}
+        b = {id = "stick", amount = 1}
+[sticks_and_pebbles_to_hoe]
+    recipe = [
+        ["a", "a", ""],
+        ["", "b", ""],
+        ["", "b", ""]
+    ]
+    result = "crumbling_hoe"
+    [sticks_and_pebbles_to_hoe.items]
+        a = {id = "stone", amount = 1}
+        b = {id = "stick", amount = 1}
+[sticks_and_pebbles_to_pickaxe]
+    recipe = [
+        ["a", "a", "a"],
+        ["", "b", ""],
+        ["", "b", ""]
+    ]
+    result = "crumbling_pickaxe"
+    [sticks_and_pebbles_to_pickaxe.items]
+        a = {id = "stone", amount = 1}
+        b = {id = "stick", amount = 1}
+[sticks_and_pebbles_to_shovel]
+    recipe = [
+        ["", "a", ""],
+        ["", "b", ""],
+        ["", "b", ""]
+    ]
+    result = "crumbling_shovel"
+    [sticks_and_pebbles_to_shovel.items]
+        a = {id = "stone", amount = 1}
+        b = {id = "stick", amount = 1}
+[water_extractor]
+    recipe = [
+        ["a", "a", "a"],
+        ["a", "", "a"],
+        ["a", "a", "a"]
+    ]
+    result = "water_extractor"
+    [water_extractor.items]
+        a = {id = "stone", amount = 1}
+[sticks_and_sharpened_pebbles_to_spear]
+    recipe = [
+        ["", "a", ""],
+        ["", "b", ""],
+        ["", "b", ""]
+    ]
+    result = "crumbling_spear"
+    [sticks_and_sharpened_pebbles_to_spear.items]
+        a = {id = "sharpened_pebble", amount = 1}
+        b = {id = "stick", amount = 1}

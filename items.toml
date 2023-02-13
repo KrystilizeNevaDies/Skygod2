@@ -1,0 +1,84 @@
+[workshop]
+    displayName = "Workshop"
+    material = "crafting_table"
+    matter = 4
+    block = "workbench"
+
+[grass]
+    displayName = "Grass Block"
+    material = "grass_block"
+    matter = 5
+    block = "grass"
+
+[pebble]
+    displayName = "Pebble"
+    material = "stone_button"
+    matter = 1
+    properties = ["shiny"]
+    grindingOutput = "sharpened_pebble"
+
+[sharpened_pebble]
+    displayName = "Sharpened Pebble"
+    material = "flint"
+    matter = 1
+
+[stone]
+    displayName = "Stone Chunk"
+    material = "stone"
+    matter = 4
+    block = "stone"
+
+[dirt]
+    displayName = "Dirt Block"
+    material = "dirt"
+    matter = 4
+    block = "dirt"
+
+[tree_leaves]
+    displayName = "Tree Leaves"
+    material = "oak_leaves"
+    matter = 1
+    block = "tree_leaves"
+
+[stick]
+    displayName = "Stick"
+    material = "stick"
+    matter = 1
+
+[crumbling_pickaxe]
+    displayName = "Crumbling Pickaxe"
+    material = "stone_pickaxe"
+    matter = 14
+
+[crumbling_shovel]
+    displayName = "Crumbling Shovel"
+    material = "stone_shovel"
+    matter = 6
+
+[crumbling_axe]
+    displayName = "Crumbling Axe"
+    material = "stone_axe"
+    matter = 14
+
+[crumbling_hoe]
+    displayName = "Crumbling Hoe"
+    material = "stone_hoe"
+    matter = 10
+
+[crumbling_spear]
+    displayName = "Crumbling Spear"
+    material = "arrow"
+    matter = 3
+
+[water_extractor]
+    displayName = "Water Extractor"
+    material = "dispenser"
+    matter = 32
+    block = "water_extractor"
+    properties = ["liquid_level"]
+
+[grindstone]
+    displayName = "Grindstone"
+    material = "grindstone"
+    matter = 12
+    block = "grindstone"

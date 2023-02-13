@@ -1,0 +1,25 @@
+[grass]
+    type = "random"
+    entries = [
+        { loot = { type = "item", item = "dirt" }, weight = 4 },
+        { loot = { type = "item", item = "pebble" }, weight = 1 }
+    ]
+
+[dirt]
+    type = "item"
+    item = "dirt"
+
+[tree_leaves]
+    type = "random"
+    entries = [
+        { loot = { type = "item", item = "tree_leaves" }, weight = 1 },
+        { loot = { type = "item", item = "stick" }, weight = 1 }
+    ]
+
+[tree_trunk]
+    type = "item"
+    item = "stick"
+
+[stone]
+    type = "item"
+    item = "pebble"
